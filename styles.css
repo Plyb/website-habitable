@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #000;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  margin: 1em;
+  text-align: center;
+}
+
+h2, h3 {
+  margin-top: 1em;
+}
+
+h4 {
+  text-align: center;
+  font-weight: normal;
+  margin: 1em;
+}
+
+p {
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.planet-info {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.planet {
+  border-width: 2px;
+  border-color: #000;
+  border-style: solid;
+}
+
+.goButton {
+  width: 50%;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+.footer {
+  flex: initial;
+  background-color: #555;
+  color: #EEE;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5em;
+}
+
+#results {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+p.planet-info {
+  margin: 0;
+}
